@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Portfolio_1/static/css/main.7495608a.css",
+    "main.js": "/Portfolio_1/static/js/main.ec87b44e.js",
+    "static/media/rough-horn-2146181_1280.jpg": "/Portfolio_1/static/media/rough-horn-2146181_1280.f69a3795598d801f4d5f.jpg",
+    "static/media/Wetter.JPG": "/Portfolio_1/static/media/Wetter.d83d9cd6ca3075ec098a.JPG",
+    "static/media/Immohub.JPG": "/Portfolio_1/static/media/Immohub.87a69bc1fac883fa254a.JPG",
+    "static/media/Quiz.JPG": "/Portfolio_1/static/media/Quiz.123dcd832362c1edb75c.JPG",
+    "static/media/spotify.JPG": "/Portfolio_1/static/media/spotify.64533254580415de9541.JPG",
+    "static/media/Netflix.JPG": "/Portfolio_1/static/media/Netflix.235d507156ce06bc6804.JPG",
+    "index.html": "/Portfolio_1/index.html",
+    "main.7495608a.css.map": "/Portfolio_1/static/css/main.7495608a.css.map",
+    "main.ec87b44e.js.map": "/Portfolio_1/static/js/main.ec87b44e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7495608a.css",
+    "static/js/main.ec87b44e.js"
+  ]
+}
