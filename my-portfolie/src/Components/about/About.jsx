@@ -4,6 +4,7 @@ import { FaAward } from "react-icons/fa";
 import { FaUsers } from "react-icons/fa";
 import { AiOutlineFundProjectionScreen } from "react-icons/ai";
 import Testme from "../../assets/rough-horn-2146181_1280.jpg";
+import { Link } from "react-router-dom";
 
 const About = () => {
   return (
@@ -44,9 +45,9 @@ const About = () => {
             necessitatibus recusandae aperiam hic sunt! Excepturi perferendis,
             ad repudiandae culpa incidunt dolorem voluptate.
           </p>
-          <a href="#contact" className="btn btn-primary">
+          <Link to="/ContactPage" className="btn btn-primary">
             Connect with ME
-          </a>
+          </Link>
         </div>
       </div>
     </section>

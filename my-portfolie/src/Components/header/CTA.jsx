@@ -1,15 +1,15 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
-///////////// HIER MUSS NOCH ZU LINK GENÄNDERT WERDEN
 const CTA = () => {
   return (
     <div className="cta">
-      <a className="btn" href="/lebenslauf">
+      <Link className="btn" to="/CVPage">
         Lebenslauf
-      </a>
-      <a className="btn btn-primary" href="/schreib-mir">
+      </Link>
+      <Link className="btn btn-primary" to="/ContactPage">
         Schreib mir
-      </a>
+      </Link>
     </div>
   );
 };

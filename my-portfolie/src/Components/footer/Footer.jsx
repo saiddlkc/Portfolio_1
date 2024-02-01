@@ -1,30 +1,31 @@
 import React from "react";
 import "./footer.css";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
     <footer>
-      <a href="#" className="footer__logo">
+      <Link href="#" className="footer__logo">
         Said Dlkc
-      </a>
+      </Link>
       <ul className="permalinks">
         <li>
-          <a href="">Home</a>
+          <Link to="/">Home</Link>
         </li>
         <li>
-          <a href="#about">About</a>
+          <Link to="/AboutPage">About</Link>
         </li>
         <li>
-          <a href="#experience">Experience</a>
+          <Link to="/ExperiencePage">Experience</Link>
         </li>
         <li>
-          <a href="#portfolio">Portfolio</a>
+          <Link to="/PortfolioPage">Portfolio</Link>
         </li>
         <li>
-          <a href="#testimonials">Testimonials</a>
+          <Link to="/TestiPage">Testimonials</Link>
         </li>
         <li>
-          <a href="#contact">Contact</a>
+          <Link to="/ContactPage">Contact</Link>
         </li>
       </ul>
       <div className="footer__socials">

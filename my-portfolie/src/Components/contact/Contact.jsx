@@ -2,6 +2,7 @@ import React from "react";
 import "./contact.css";
 import { IoMdMail } from "react-icons/io";
 import { FaDiscord } from "react-icons/fa6";
+import { FaLinkedin } from "react-icons/fa";
 
 const Contact = () => {
   return (
@@ -11,30 +12,33 @@ const Contact = () => {
       <div className="container contact__container">
         <div className="contact__options">
           <article className="contact__option">
-            <IoMdMail className="contact__option-icon" />
-            <h4>Email</h4>
-            <h5>saidalkilic@mail.com</h5>
-            <a href="mailto:saidalkilic@mail.com"> Send a message</a>
+            <FaLinkedin className="contact__option-icon" />
+            <h4>LinkedIn</h4>
+            <h5>Sait Ali Dalkilic</h5>
+            <a
+              href="https://www.linkedin.com/in/sait-ali-dalkilic-898508279/"
+              target="_blank"
+            >
+              add me on LinkedIn
+            </a>
           </article>
           <div className="contact__options">
             <article className="contact__option">
-              <FaDiscord className="contact__option-icon" />
-              <h4>Discord</h4>
-              <h5>said_dlkc</h5>
-              <a href="https://discord.com/" target="_blank">
-                add me on Discord
-              </a>
+              <IoMdMail className="contact__option-icon" />
+              <h4>Email</h4>
+              <h5>saidalkilic@mail.com</h5>
+              <a href="mailto:saidalkilic@mail.com"> Send a message</a>
             </article>
-          </div>
-          <div className="contact__options">
-            <article className="contact__option">
-              <FaDiscord className="contact__option-icon" />
-              <h4>Discord</h4>
-              <h5>said_dlkc</h5>
-              <a href="https://discord.com/" target="_blank">
-                add me on Discord
-              </a>
-            </article>
+            <div className="contact__options">
+              <article className="contact__option">
+                <FaDiscord className="contact__option-icon" />
+                <h4>Discord</h4>
+                <h5>said_dlkc</h5>
+                <a href="https://discord.com/" target="_blank">
+                  add me on Discord
+                </a>
+              </article>
+            </div>
           </div>
         </div>
         <form action="">

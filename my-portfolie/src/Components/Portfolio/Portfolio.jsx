@@ -1,6 +1,6 @@
 import React from "react";
 import "./portfolio.css";
-import Immo from "../../assets/Immohub.JPG";
+import Immo from "../../assets/Immo.jpeg";
 import Spotify from "../../assets/spotify.JPG";
 import Netflix from "../../assets/Netflix.JPG";
 import Quiz from "../../assets/Quiz.JPG";
@@ -33,14 +33,14 @@ const Portfolio = () => {
       id: 4,
       image: Wetter,
       title: "Wetter App",
-      github: "https://github.com/saiddlkc",
+      github: "https://github.com/saiddlkc/WetterApp/tree/master",
       demo: "https://verc-test-neon.vercel.app/",
     },
     {
       id: 5,
       image: Quiz,
       title: "Quiz App",
-      github: "https://github.com/saiddlkc",
+      github: "https://github.com/saiddlkc/Projekt-Quiz",
       demo: "https://verc-test-neon.vercel.app/",
     },
   ];
@@ -52,8 +52,10 @@ const Portfolio = () => {
       <div className="container portfolio__container">
         {projects.map((project) => (
           <article key={project.id} className="portfolio__item">
-            <div className="portfolio__item-image">
-              <img src={project.image} alt="" />
+            <div className="layer">
+              <div className="portfolio__item-image">
+                <img src={project.image} alt="" />
+              </div>
             </div>
             <h3>{project.title}</h3>
             <div className="portfolio__item-cta">

@@ -6,53 +6,54 @@ import { FaBook } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
 import { GoProjectSymlink } from "react-icons/go";
 import { TbReportAnalytics } from "react-icons/tb";
+import { NavLink } from "react-router-dom";
 
 const Nav = () => {
   const [activeNav, setActiveNav] = useState("#");
   return (
     <nav>
-      <a
-        href="#"
+      <NavLink
+        to="/"
         onClick={() => setActiveNav("#")}
         className={activeNav === "#" ? "active" : ""}
       >
         <FaHome />
-      </a>
-      <a
-        href="#about"
+      </NavLink>
+      <NavLink
+        to="/AboutPage"
         onClick={() => setActiveNav("#about")}
         className={activeNav === "#about" ? "active" : ""}
       >
         <FaRegUser />
-      </a>
-      <a
-        href="#experience"
+      </NavLink>
+      <NavLink
+        to="/ExperiencePage"
         onClick={() => setActiveNav("#experience")}
         className={activeNav === "#experience" ? "active" : ""}
       >
         <FaBook />
-      </a>
-      <a
-        href="#portfolio"
+      </NavLink>
+      <NavLink
+        to="/PortfolioPage"
         onClick={() => setActiveNav("#portfolio")}
         className={activeNav === "#portfolio" ? "active" : ""}
       >
         <GoProjectSymlink />
-      </a>
-      <a
-        href="#testimonials"
+      </NavLink>
+      <NavLink
+        to="/TestiPage"
         onClick={() => setActiveNav("#testimonials")}
         className={activeNav === "#testimonials" ? "active" : ""}
       >
         <TbReportAnalytics />
-      </a>
-      <a
-        href="#contact"
+      </NavLink>
+      <NavLink
+        to="/ContactPage"
         onClick={() => setActiveNav("#contact")}
         className={activeNav === "#contact" ? "active" : ""}
       >
         <IoMdMail />
-      </a>
+      </NavLink>
     </nav>
   );
 };
