@@ -47,7 +47,7 @@
 
 @media screen and (max-width: 1024px) {
   .portfolio__container {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 1.2rem;
   }
 }
@@ -55,5 +55,11 @@
   .portfolio__container {
     grid-template-columns: 1fr;
     gap: 1rem;
+    justify-content: center;
+  }
+  .portfolio__item-image img {
+    width: 300px;
+    height: 200px;
+    background-position: center;
   }
 }
