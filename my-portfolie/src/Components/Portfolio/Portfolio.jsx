@@ -43,6 +43,13 @@ const Portfolio = () => {
       github: "https://github.com/saiddlkc/Projekt-Quiz",
       demo: "https://verc-test-neon.vercel.app/",
     },
+    {
+      id: 6,
+      image: Wetter,
+      title: "Amazon Clone",
+      github: "https://github.com/saiddlkc/Amazon-Clone",
+      demo: "https://verc-test-neon.vercel.app/",
+    },
   ];
 
   return (

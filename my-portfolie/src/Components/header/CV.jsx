@@ -26,12 +26,14 @@ const CV = () => {
             <h3>Berufserfahrung</h3>
             <ul>
               <li>03/2017-11/2017: Emnitel Callcenter (Marktforschung)</li>
-              <li>12/2017 - 03/2018: Datenerfasser/Support bei Zalando S.E.</li>
+              <li>
+                12/2017 - 03/2018: Datenerfasser/IT-Support bei Zalando S.E.
+              </li>
               <li>
                 03/2018 - 03/2019: Content Managment/HelpDesk bei Zalando S.E.
               </li>
               <li>05/2019 - 12/2019: Dispatcher bei Amazon Logistics</li>
-              <li>04/2020-03/2023: Gastronomie/Kurier bei Lieferando</li>
+              <li>04/2020-03/2022: Gastronomie/Kurier bei Lieferando</li>
             </ul>
           </div>
 
