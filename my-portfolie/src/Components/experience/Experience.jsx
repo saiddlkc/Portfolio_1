@@ -7,6 +7,10 @@ import { FaBootstrap } from "react-icons/fa6";
 import { FaReact } from "react-icons/fa";
 import { FaNodeJs } from "react-icons/fa";
 import { FaPython } from "react-icons/fa";
+import { SiTailwindcss } from "react-icons/si";
+import { FaGitAlt } from "react-icons/fa6";
+import { SiMongodb } from "react-icons/si";
+import { TbSql } from "react-icons/tb";
 
 const Experience = () => {
   return (
@@ -49,7 +53,14 @@ const Experience = () => {
               <FaReact className="experience__details-icon" />
               <div>
                 <h4>React</h4>
-                <small className="text-light">Noob</small>
+                <small className="text-light">Good</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <SiTailwindcss className="experience__details-icon" />
+              <div>
+                <h4>Tailwind</h4>
+                <small className="text-light">Average</small>
               </div>
             </article>
           </div>
@@ -59,10 +70,31 @@ const Experience = () => {
           <h3>Backend Development</h3>
           <div className="experience__content">
             <article className="experience__details">
+              <FaGitAlt className="experience__details-icon" />
+              <div>
+                <h4>Git</h4>
+                <small className="text-light">Average</small>
+              </div>
+            </article>
+            <article className="experience__details">
               <FaNodeJs className="experience__details-icon" />
               <div>
                 <h4>NodeJS</h4>
-                <small className="text-light">Noob</small>
+                <small className="text-light">Good</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <SiMongodb className="experience__details-icon" />
+              <div>
+                <h4>MongoDB</h4>
+                <small className="text-light">Average</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <TbSql className="experience__details-icon" />
+              <div>
+                <h4>SQL</h4>
+                <small className="text-light">Good</small>
               </div>
             </article>
             <article className="experience__details">

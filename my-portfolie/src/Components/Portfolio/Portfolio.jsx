@@ -5,6 +5,7 @@ import Spotify from "../../assets/spotify.JPG";
 import Netflix from "../../assets/Netflix.JPG";
 import Quiz from "../../assets/Quiz.JPG";
 import Wetter from "../../assets/Wetter.JPG";
+import Amazon from "../../assets/amazooon.png";
 
 const Portfolio = () => {
   const projects = [
@@ -24,24 +25,31 @@ const Portfolio = () => {
     },
     {
       id: 3,
+      image: Amazon,
+      title: "Amazon Clone",
+      github: "https://github.com/saiddlkc/Amazon-Clone",
+      demo: "https://amazon-react-clone-one.vercel.app/",
+    },
+    {
+      id: 4,
       image: Netflix,
       title: "Netflix Clone",
       github: "https://github.com/saiddlkc/NetFlex",
       demo: "https://verc-test-neon.vercel.app/",
     },
     {
-      id: 4,
+      id: 5,
       image: Wetter,
       title: "Wetter App",
-      github: "https://github.com/saiddlkc",
+      github: "https://github.com/saiddlkc/WetterApp",
       demo: "https://verc-test-neon.vercel.app/",
     },
     {
-      id: 5,
+      id: 6,
       image: Quiz,
       title: "Quiz App",
       github: "https://github.com/saiddlkc",
-      demo: "https://verc-test-neon.vercel.app/",
+      demo: "https://github.com/saiddlkc/Projekt-Quiz",
     },
   ];
 
