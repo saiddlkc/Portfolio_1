@@ -1,14 +1,20 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import LB from "../../assets/Said.pdf";
 
-///////////// HIER MUSS NOCH ZU LINK GENÄNDERT WERDEN
 const CTA = () => {
+  // const handleNavigateToGitHub = () => {
+  //   const githubUrl = "/TestCV.pdf";
+  //   window.open(githubUrl, "_blank");
+  // };
+
   return (
     <div className="cta">
-      <a className="btn" href="/lebenslauf">
+      <Link className="btn" to="/CVPage">
         Lebenslauf
-      </a>
-      <a className="btn btn-primary" href="/schreib-mir">
-        Schreib mir
+      </Link>
+      <a className="btn btn-primary" href={LB} target="blank">
+        Download
       </a>
     </div>
   );
