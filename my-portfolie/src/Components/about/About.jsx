@@ -3,7 +3,7 @@ import "./about.css";
 import { FaAward } from "react-icons/fa";
 import { FaUsers } from "react-icons/fa";
 import { AiOutlineFundProjectionScreen } from "react-icons/ai";
-import Testme from "../../assets/rough-horn-2146181_1280.jpg";
+import me from "../../assets/portfolio.jpg";
 
 const About = () => {
   return (
@@ -14,7 +14,7 @@ const About = () => {
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
-            <img src={Testme} alt="" />
+            <img src={me} alt="" />
           </div>
         </div>
 

@@ -21,7 +21,7 @@ const Contact = () => {
               <FaDiscord className="contact__option-icon" />
               <h4>Discord</h4>
               <h5>said_dlkc</h5>
-              <a href="https://discord.com/" target="_blank">
+              <a href="https://discord.com/" target="blank">
                 add me on Discord
               </a>
             </article>
@@ -31,7 +31,7 @@ const Contact = () => {
               <FaDiscord className="contact__option-icon" />
               <h4>Discord</h4>
               <h5>said_dlkc</h5>
-              <a href="https://discord.com/" target="_blank">
+              <a href="https://discord.com/" target="blank">
                 add me on Discord
               </a>
             </article>

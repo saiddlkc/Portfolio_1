@@ -7,11 +7,11 @@ const HeaderSocials = () => {
     <div className="header__socials">
       <a
         href="https://www.linkedin.com/in/sait-ali-dalkilic-898508279/"
-        target="_blank"
+        target="blank"
       >
         <FaLinkedin />
       </a>
-      <a href="https://github.com/saiddlkc?tab=repositories" target="_blank">
+      <a href="https://github.com/saiddlkc?tab=repositories" target="blank">
         <FaGithub />
       </a>
     </div>
